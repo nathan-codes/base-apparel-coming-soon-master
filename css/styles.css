@@ -30,7 +30,7 @@ body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
+
   -webkit-font-smoothing: antialiased;
 }
 
@@ -97,23 +97,60 @@ h6 {
 body {
   font-size: 16px;
   text-align: center;
- 
+  font-family: 'Josefin Sans', sans-serif;
+
+
 }
 
 
 /* Image Logo  */
 .img_logo {
-  width: 42%;
+  width: 45%;
   padding: 2rem 2rem;
 }
 
 
 
 /* Main Heading */
- h1 {
+h1 {
+
   text-transform: uppercase;
-  font-size: 4rem;
- }
+  font-size: 3rem;
+  font-weight: var(--fw-bold);
+  padding: 4rem 0 1rem 0;
+  letter-spacing: 5px;
+
+}
+
+h1 span {
+  color: var(--Desaturated-Red);
+  font-weight: var(--fw-light);
+}
+
+
+.comingSoon__content p {
+
+  color: var(--Desaturated-Red);
+  padding: 2rem 1.2rem;
+  line-height: 1.5;
+  font-size: 15px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .attribution {
