@@ -114,7 +114,7 @@ body {
 
 /* =========> Left Section Styling --Start <===========*/
 .img_logo {
- 
+
   position: absolute;
   max-width: 30%;
   top: 3rem;
@@ -130,8 +130,6 @@ body {
   flex-direction: column;
   justify-content: center;
   background-image: url(/images/bg-pattern-desktop.svg);
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 
 }
@@ -143,7 +141,7 @@ h1 {
   text-transform: uppercase;
   font-size: 4rem;
   letter-spacing: 10px;
-  
+
 }
 
 h1 span {
