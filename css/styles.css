@@ -118,6 +118,7 @@ body {
   position: absolute;
   max-width: 30%;
   top: 3rem;
+ 
   /* padding-bottom: 30rem; */
 }
 
@@ -168,6 +169,7 @@ p {
 
 .herroImage {
   width: 100%;
+  height: 100%;
 }
 
 
@@ -231,11 +233,11 @@ input:focus {
 
 /* Responsiveness On Mobile Screen Sizes  */
 
-@media (max-width:1000px) {
+@media (max-width:767px) {
   body {
     display: flex;
-    
-  
+
+
     justify-content: center;
     flex-direction: column;
     flex-direction: column-reverse;
@@ -253,9 +255,9 @@ input:focus {
 
   .ImageSection {
 
-    margin-top: 300px;
+    margin-top: 18.75rem;
     width: 100%;
-  
+
   }
 
 
