@@ -229,6 +229,39 @@ input:focus {
 
 
 
+/* Responsiveness On Mobile Screen Sizes  */
+
+@media (max-width:1000px) {
+  body {
+    display: flex;
+    
+  
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .comingSoon_Content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 15% 3%;
+    width: 100%;
+  }
+
+
+  .ImageSection {
+
+    margin-top: 300px;
+    width: 100%;
+  
+  }
+
+
+
+}
+
 
 
 
