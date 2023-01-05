@@ -220,8 +220,8 @@ input:focus {
   border: none;
   position: absolute;
   overflow: none;
-  top: 0;
-  right: 0;
+  top: -1px;
+  right: -1px;
   border-radius: 30px;
 
 
