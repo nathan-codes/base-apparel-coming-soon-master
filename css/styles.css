@@ -197,7 +197,7 @@ form {
 form input {
   border: none;
   margin-left: 1rem;
-  width: 70%;
+  width: 65%;
 
 
 
@@ -281,6 +281,8 @@ input:focus {
     padding: 15% 3%;
   }
 }
+
+
 
 
 
